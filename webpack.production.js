@@ -8,14 +8,6 @@ module.exports = merge(common, {
     module: {
         loaders: [
             /**
-             * Transpile ES5+ to ES5
-             */
-            {
-                test: /\.js$/,
-                exclude: [/node_modules/],
-                loader: 'babel-loader',
-            },        
-            /**
              * Compile Sass to CSS
              */
             {

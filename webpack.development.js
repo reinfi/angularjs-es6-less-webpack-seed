@@ -4,15 +4,7 @@ const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
     module: {
-        loaders: [
-            /**
-             * Transpile ES5+ to ES5
-             */
-            {
-                test: /\.js$/,
-                exclude: [/node_modules/],
-                loader: 'babel-loader'
-            },        
+        loaders: [            
             /**
              * Compile Sass to CSS
              */
