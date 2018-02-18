@@ -4,20 +4,31 @@
   "license": "MIT",
   "main": "webpack.development.js",
   "scripts": {
-    "start": "webpack-dev-server --open --config webpack.development.js",
-    "build": "webpack --config webpack.production.js"
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --open --config webpack.development.js",
+    "test": "./node_modules/karma/bin/karma start karma.conf.js",
+    "build": "./node_modules/webpack/bin/webpack.js --config webpack.production.js"
   },
   "dependencies": {
+    "angular": "1.6.7"
+  },
+  "devDependencies": {
     "@babel/core": "^7.0.0-beta.38",
     "@babel/plugin-transform-runtime": "^7.0.0-beta.38",
     "@babel/preset-env": "^7.0.0-beta.38",
     "@babel/runtime": "^7.0.0-beta.38",
-    "angular": "1.6.7",
+    "angular-mocks": "^1.6.9",
     "babel-loader": "8.0.0-beta.0",
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.9",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
+    "jasmine-core": "^2.99.1",
+    "jquery": "^3.3.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-webpack": "^2.0.9",
     "node-sass": "^4.7.2",
     "raw-loader": "^0.5.1",
     "sass-loader": "^6.0.6",
