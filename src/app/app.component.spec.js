@@ -12,7 +12,7 @@ describe('app-root component', function () {
 
     it('should render the root component', function () {
       let app = element.find('.app');
-console.log(app.length);
+
       expect(app.length).toBe(1);      
     });       
 });
