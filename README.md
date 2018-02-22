@@ -1,1 +1,1 @@
-ES5+ Sass Webpack Seed
+ES5+ Less Webpack Seed
