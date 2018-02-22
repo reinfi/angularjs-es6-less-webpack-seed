@@ -1,4 +1,2 @@
-import app from './app/app';
-import './index.less';
-
-app();
+import angular from 'angular';
+import './app/app.module';
