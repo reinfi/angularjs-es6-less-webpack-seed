@@ -1,1 +1,1 @@
-ES5+ Less Webpack Seed
+AngularJS ES6 Less Webpack Seed
