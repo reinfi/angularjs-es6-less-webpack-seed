@@ -19,7 +19,7 @@ module.exports = merge(common, {
              * Compile Sass to CSS
              */
             {
-                test: /\.scss$/,
+                test: /\.less$/,
                 /**
                  * Extract result in an extra file
                  */
@@ -31,7 +31,7 @@ module.exports = merge(common, {
                                 minimize: true
                             }
                         }, {
-                            loader: "sass-loader"
+                            loader: "less-loader"
                         }
                     ],
                 })
