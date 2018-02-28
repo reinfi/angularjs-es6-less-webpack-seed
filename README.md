@@ -1,1 +1,1 @@
-ES5+ Sass Webpack Seed
+AnggularJS ES6 Less Webpack Seed
