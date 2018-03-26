@@ -1,0 +1,12 @@
+<div class="wireframe-tooltip">
+    <div class="wireframe-tooltip__container">
+        <div class="wireframe-tooltip__header">
+            <span ng-if="$ctrl.count === 0">Es befinden sich keine Tarife auf Ihrem Merkzettel.</span>
+            <span ng-if="$ctrl.count === 1">Es befindet sich 1 Tarif auf Ihrem Merkzettel.</span>
+            <span ng-if="$ctrl.count > 1">Es befinden sich {{ $ctrl.count }} Tarife auf Ihrem Merkzettel.</span>
+        </div>
+        <div class="wireframe-tooltip__content" ng-if="$ctrl.count === 0">
+            <span>Markieren Sie das Herz-Symbol auf einem Tarif, um den Tarif auf dem Merkzettel zu speichern.</span>
+        </div>
+    </div>
+</div>

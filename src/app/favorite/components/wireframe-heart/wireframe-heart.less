@@ -1,0 +1,73 @@
+.wireframe-heart {
+  background-color: #005ea8;
+  position: relative;
+  width: 24px;
+
+  &__heart-inactive {
+    display: block;
+    width: 23px;
+    height: 21px;
+    margin-top: 3px;
+    padding-bottom: 27px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  &__heart-active {
+    display: block;
+    width: 23px;
+    height: 21px;
+    margin-top: 3px;
+    padding-bottom: 27px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  &__count {
+    right: -8px;
+    top: -7px;
+    position: absolute;
+    font-size: 11px;
+    height: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    min-width: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #e30613;
+    border-radius: 7px;
+  }
+
+  &__tooltip {
+    background: #fff;
+    min-width: 280px;
+    padding: 12px 0 0;
+    box-sizing: border-box;
+    border: 1px solid #005ea8;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.45);
+    text-align: left;
+    z-index: 1004;
+    position: absolute;
+    top: 64px;
+    right: -6px;
+    color: #575757;
+  }
+
+  &__tooltip-main {
+    width: 265px;
+    padding: 0 25px 5px 15px;
+  }
+
+  &__tooltip-header {
+    font-size: 12px;
+    color: #005ea8;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  &__tooltip-content {
+    text-align: left;
+    color: #575757;
+    word-wrap: break-word;
+  }
+}
