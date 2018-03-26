@@ -1,6 +1,6 @@
 const STORAGE_NAME = 'token';
 
-class OAuth2StorageService {
+class OAuthStorageService {
     constructor($window) {
         this.$window = $window;
 
@@ -55,6 +55,6 @@ class OAuth2StorageService {
     }
 }
 
-OAuth2StorageService.$inject = ['$window'];
+OAuthStorageService.$inject = ['$window'];
 
-export default OAuth2StorageService;
+export default OAuthStorageService;

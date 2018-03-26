@@ -1,4 +1,4 @@
-class OAuth2Service {
+class OAuthService {
     constructor($http, $timeout, oAuthConfig, oAuthTokenService) {
         this.$http = $http;
         this.$timeout = $timeout;
@@ -67,11 +67,11 @@ class OAuth2Service {
     }
 }
 
-OAuth2Service.$inject = [
+OAuthService.$inject = [
     '$http',
     '$timeout',
     'oAuthConfig',
     'oAuthTokenService',
 ];
 
-export default OAuth2Service;
+export default OAuthService;
