@@ -1,4 +1,5 @@
 const REQUIRED_PARAMETER = [
+    'enabled',
     'baseUrl',
     'clientId',
     'grantType',
@@ -7,6 +8,7 @@ const REQUIRED_PARAMETER = [
 
 function OAuthConfigProvider() {
     this.defaultConfig = {
+        enabled: true,
         baseUrl: null,
         clientId: null,
         clientSecret: null,
